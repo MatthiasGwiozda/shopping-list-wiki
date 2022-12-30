@@ -22,6 +22,6 @@
           | technical
           | features
     - [x] move Todos.md
+    - [x] change the links of all markdown files
     - [] delete or create navigator files?
-    - [] change the links of all markdown files
     - [] change documentation link in "shopping-list"
