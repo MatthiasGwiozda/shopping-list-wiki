@@ -6,7 +6,7 @@
     - [x] in the "shopping-list-wiki" repo link the "shopping-list"
 
 - structure the folder documentation in "developers" and "users"
-    - [] create folder structure:
+    - [x] create folder structure:
         | user
           | installation
           | usage
@@ -14,15 +14,14 @@
         | developer
           | installation
           | testcases
-          | technicalManual
-            | structureDump.md
-            | advancedUsers.md --> rename to databaseFile#
-          | checklists
-            | release.md
+          | structureDump.md
+          | advancedUsers.md --> rename to databaseFile.md
+          | release.md
           | questionsAndAnswers
         | ideas
           | technical
           | features
-    - [] create "navigator markdown - files"
+    - [x] move Todos.md
+    - [] delete or create navigator files?
     - [] change the links of all markdown files
-    
+    - [] change documentation link in "shopping-list"
