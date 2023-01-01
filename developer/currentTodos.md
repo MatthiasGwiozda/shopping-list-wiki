@@ -1,15 +1,19 @@
 # Todos
 ## make a class of ApplicationMenuRoutes - functionality
---- create dataAccessObjects + interfaces + factories
-- [] Categories
-- [] Shops
-- [] Items
+--- create dataAccessObjects + interfaces
+- [x] Categories
+- [x] Shops
+- [x] Items
+
+--- use dataAccessObjects in Database.ts
+- [x] Categories
+- [x] Shops
+- [x] Items
 
 --- create class ComponentReadyChecksImpl
-- [] make interface out of ComponentReadyChecks
-- [] create class "ComponentReadyChecksImpl", which implements ComponentReadyChecks
-- [] use daos in constructor to retrieve data
-- [] Move readyChecks from ApplicationMenuRoutes to ComponentReadyChecksImpl
+- [x] make interface out of ComponentReadyChecks
+- [x] create class "ComponentReadyChecksImpl", which implements ComponentReadyChecks
+- [x] use daos in constructor to retrieve data
 
 --- create NamedIcon class
 - [] make NamedIcon - class out of "icon" + "name"
@@ -47,6 +51,8 @@
 - [] rename ApplicationMenuRoutes.ts to MenuRoutesFactory.ts
 - [] move MenuRoutesFactory to factories - folder
 - [] create function "getRoutes" in MenuRoutesFactory. Use the MenuRouteFactories to return the MenuRoutes
+- [] remove static readyChecks in MenuRoutesFactory
+- [] use ComponentReadyChecksFactoryImpl instead of static readyChecks
 - [] use MenuRoutesFactory in MenuFactory
 
 --- post processing
