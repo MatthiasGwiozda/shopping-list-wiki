@@ -31,11 +31,23 @@
 - [] use MenuRoute constructor in ApplicationMenuRoutes
 
 --- MenuRouteFactory class
-- [] create class MenuRouteFactory in ApplicationMenuRoutes.ts
-- [] rename ApplicationMenuRoutes.ts to MenuRouteFactory.ts
-- [] move MenuRouteFactory to factories - folder
-- [] create function "getRoutes" in MenuRouteFactory. Return the ApplicationMenuRoutes in the function
-- [] use MenuRouteFactory in MenuFactory
+- [] create abstract class "MenuRouteFactory"
+- [] create abstract function `getNamedIcon(): NamedIcon`
+- [] create abstract function `getRouteBehavior(): MenuRouteBehavior`
+- [] implement function `getMenuRoute(): MenuRoute`, which uses the abstract functions
+- [] implement single routeFactories
+    - [] shoppingList
+    - [] items
+    - [] categories
+    - [] shops
+    - [] meals
+
+--- MenuRoutesFactory class
+- [] create class MenuRoutesFactory in ApplicationMenuRoutes.ts
+- [] rename ApplicationMenuRoutes.ts to MenuRoutesFactory.ts
+- [] move MenuRoutesFactory to factories - folder
+- [] create function "getRoutes" in MenuRoutesFactory. Use the MenuRouteFactories to return the MenuRoutes
+- [] use MenuRoutesFactory in MenuFactory
 
 --- post processing
 - [] merge branch to master
