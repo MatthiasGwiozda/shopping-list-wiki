@@ -14,6 +14,7 @@
 - [x] make interface out of ComponentReadyChecks
 - [x] create class "ComponentReadyChecksImpl", which implements ComponentReadyChecks
 - [x] use daos in constructor to retrieve data
+- [x] create ComponentReadyChecksFactory
 
 --- create NamedIcon class
 - [] make NamedIcon - class out of "icon" + "name"
