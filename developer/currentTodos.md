@@ -39,17 +39,17 @@
 - [x] make factories out of dao - objects
 - [x] pass the dao - objects instead of the queryExecutor ComponentReadyChecksFactoryImpl
 
---- MenuRouteFactory class
-- [] create abstract class "MenuRouteFactory"
-- [] create abstract function `getNamedIcon(): NamedIcon`
-- [] create abstract function `getRouteBehavior(): MenuRouteBehavior`
-- [] implement function `getMenuRoute(): MenuRoute`, which uses the abstract functions
-- [] implement single routeFactories
-    - [] shoppingList
+--- MenuRouteCreator class
+- [x] create abstract class "MenuRouteCreator"
+- [x] create abstract function `getNamedIcon(): NamedIcon`
+- [x] create abstract function `getRouteBehavior(): MenuRouteBehavior`
+- [x] implement function `getMenuRoute(): MenuRoute`, which uses the abstract functions
+- [] implement single MenuRouteCreators
+    - [x] shoppingList
+    - [x] categories
     - [] items
-    - [] categories
-    - [] shops
     - [] meals
+    - [] shops
 
 --- MenuRoutesFactory class
 - [] create class MenuRoutesFactory in ApplicationMenuRoutes.ts
