@@ -17,23 +17,27 @@
 - [x] create ComponentReadyChecksFactory
 
 --- create NamedIcon class
-- [] make NamedIcon - class out of "icon" + "name"
-- [] add name + icon constructor parameters to NamedIcon
-- [] add namedIcon as property to MenuRoute interface
-- [] use NamedIcon instead of old MenuRoute properties in all references
-- [] remove name + icon properties from MenuRoute
+- [x] make NamedIcon - class out of "icon" + "name"
+- [x] add name + icon constructor parameters to NamedIcon
+- [x] add namedIcon as property to MenuRoute interface
+- [x] use NamedIcon instead of old MenuRoute properties in all references
+- [x] remove name + icon properties from MenuRoute
 
 --- create MenuRouteBehavior class
-- [] create class with two properties "componentFactory" + "readyCheck"
-- [] add properties to constructor
-- [] add bahavior property to MenuRoute interface
-- [] use behavior property in all references from MenuRoute
-- [] remove componentFactory and readyCheck as direct properties from MenuRoute
+- [x] create class with two properties "componentFactory" + "readyCheck"
+- [x] add properties to constructor
+- [x] add bahavior property to MenuRoute interface
+- [x] use behavior property in all references from MenuRoute
+- [x] remove componentFactory and readyCheck as direct properties from MenuRoute
 
 --- make class out of MenuRoute
-- [] convert MenuRoute from interface to class
-- [] create constructor with MenuRouteBehavior + NamedIcon properties
-- [] use MenuRoute constructor in ApplicationMenuRoutes
+- [x] convert MenuRoute from interface to class
+- [x] create constructor with MenuRouteBehavior + NamedIcon properties
+- [x] use MenuRoute constructor in ApplicationMenuRoutes
+
+--- ComponentReadyChecksFactoryImpl
+- [x] make factories out of dao - objects
+- [x] pass the dao - objects instead of the queryExecutor ComponentReadyChecksFactoryImpl
 
 --- MenuRouteFactory class
 - [] create abstract class "MenuRouteFactory"
