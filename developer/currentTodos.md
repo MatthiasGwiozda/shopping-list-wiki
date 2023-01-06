@@ -52,6 +52,7 @@
     - [x] shops
 
 --- MenuRoutesFactory class
+- [] think about how to wire the classes together / change this checklist - block?
 - [] create class MenuRoutesFactory in ApplicationMenuRoutes.ts
 - [] rename ApplicationMenuRoutes.ts to MenuRoutesFactory.ts
 - [] move MenuRoutesFactory to factories - folder
@@ -59,6 +60,9 @@
 - [] remove static readyChecks in MenuRoutesFactory
 - [] use ComponentReadyChecksFactoryImpl instead of static readyChecks
 - [] use MenuRoutesFactory in MenuFactory
+
+--- testing
+- [] test all ready checks
 
 --- post processing
 - [] merge branch to master
