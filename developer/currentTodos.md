@@ -44,18 +44,18 @@
 - [x] create abstract function `getNamedIcon(): NamedIcon`
 - [x] create abstract function `getRouteBehavior(): MenuRouteBehavior`
 - [x] implement function `getMenuRoute(): MenuRoute`, which uses the abstract functions
-- [] implement single MenuRouteCreators
+- [x] implement single MenuRouteCreators
     - [x] shoppingList
     - [x] categories
-    - [] items
-    - [] meals
-    - [] shops
+    - [x] items
+    - [x] meals
+    - [x] shops
 
 --- MenuRoutesFactory class
 - [] create class MenuRoutesFactory in ApplicationMenuRoutes.ts
 - [] rename ApplicationMenuRoutes.ts to MenuRoutesFactory.ts
 - [] move MenuRoutesFactory to factories - folder
-- [] create function "getRoutes" in MenuRoutesFactory. Use the MenuRouteFactories to return the MenuRoutes
+- [] create function "getRoutes" in MenuRoutesFactory. Use the MenuRouteCreators to return the MenuRoutes
 - [] remove static readyChecks in MenuRoutesFactory
 - [] use ComponentReadyChecksFactoryImpl instead of static readyChecks
 - [] use MenuRoutesFactory in MenuFactory
