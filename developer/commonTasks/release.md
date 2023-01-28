@@ -13,3 +13,8 @@
     - [] describe the changes
     - [] add the generated zip - file in the release.
 1. [] delete the local zip - file
+
+
+
+# Notes for the next release
+- decoupled the creation of Menu - items.
