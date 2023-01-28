@@ -2,6 +2,8 @@
 - show the ingredients on top of each recipe when generating a shopping list
   - how to show units (e.g kg)?
 
+- Make shopping-list useable on the smartphone.
+
 - create language - packages
   - german
   - Centralize messages

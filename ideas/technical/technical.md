@@ -1,4 +1,6 @@
 # Technical Ideas
+- Make the path to the sqlite database configurable
+
 - Find queries, which make multiple statements and wrap them in a single transaction.
     - This issue is not critical. It might for example happen, that a category is inserted and
     not assigned to all shops. But the category could be deleted in this case.
