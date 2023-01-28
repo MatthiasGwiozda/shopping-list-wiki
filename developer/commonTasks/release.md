@@ -18,3 +18,4 @@
 
 # Notes for the next release
 - decoupled the creation of Menu - items.
+- updated npm packages
