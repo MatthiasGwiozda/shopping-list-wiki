@@ -52,12 +52,12 @@
     - [x] shops
 
 --- MenuRoutesFactory class
-- [] think about how to wire the classes together / change this checklist - block?
-- [] create class MenuRoutesFactory in ApplicationMenuRoutes.ts
-- [] rename ApplicationMenuRoutes.ts to MenuRoutesFactory.ts
-- [] move MenuRoutesFactory to factories - folder
-- [] create function "getRoutes" in MenuRoutesFactory. Use the MenuRouteCreators to return the MenuRoutes
-- [] remove static readyChecks in MenuRoutesFactory
+- [x] create class MenuRoutesFactory in ApplicationMenuRoutes.ts
+- [x] rename ApplicationMenuRoutes.ts to MenuRoutesFactory.ts
+- [x] move MenuRoutesFactory to factories - folder
+- [x] create function "getRoutes" in MenuRoutesFactory. Use the MenuRouteCreators to return the MenuRoutes
+- [x] remove static readyChecks in MenuRoutesFactory
+- [] fix readyChecks (functions may not be used as reference)
 - [] use ComponentReadyChecksFactoryImpl instead of static readyChecks
 - [] use MenuRoutesFactory in MenuFactory
 
