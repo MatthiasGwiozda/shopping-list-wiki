@@ -3,6 +3,8 @@
   - how to show units (e.g kg)?
 
 - Make shopping-list useable on the smartphone.
+  - Let the user use the List during shopping, instead of using an external editor like google keep
+  - Save the order, in which the user checks the items during shopping to create a natural order for future generation of shopping lists.
 
 - create language - packages
   - german
