@@ -1,10 +1,10 @@
 # How to make releases
+1. [] change the version in the package.json to the next version
 1. [] run the `deployment/deploy.ps1` - script.
 1. [] create a zip - archive from the contents of the dist - folder
 1. [] rename the zip - file to the released Version.
     - Example: Shopping-List-1.0.0
 1. [] test the content of the zip - file by unpacking it. Than start the programm to check if it's running.
-1. [] change the version in the package.json to the next version
 1. [] create and push a tag in git.
     - Example: v1.0.0
 1. [] create a release in github.
